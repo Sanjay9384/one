@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body{
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    border: 10px solid orange;
+    width: 850px;
+}
+
+.div1 {
+    background-color: rgb(208, 16, 16);
+    color: white;
+    padding: 10px;
+}
+
+.div1-p {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.div2-one-table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.div2-one-table td{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div2-two{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.div2-two-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.div2-two-2{
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    text-align: end;
+}
+
+.div2-two-1-head, .div2-two-2-head{
+    color: rgb(208, 16, 16);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div2-three-table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.div2-three-table th{
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(208, 16, 16);
+     padding: 10px;
+}
+
+.div2-three-table td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.div3{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(208, 16, 16);
+    font-weight: bold;
+}
+
+.div3-one, .div3-two, .div3-three{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.div4-line{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(208, 16, 16);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+}
+.div5-table1{
+    border: 1px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.div5-table1 th{
+    color: red;
+    padding: 5px;
+}
+
+.div5-table1 td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.div5-table1 ul li{
+    margin-left: 50px;
+}
+
+.div5-sign{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.div5-thank{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(208, 16, 16);
+    font-weight: bolder;
+}
